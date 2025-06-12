@@ -1,2 +1,2 @@
 # google_octo
-New project with React, GSAP, TailwindCSS.
+New project with React, GSAP, ThreeJS.
