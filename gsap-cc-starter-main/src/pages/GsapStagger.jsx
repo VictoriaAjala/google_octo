@@ -5,7 +5,7 @@ import gsap from "gsap";
 const GsapStagger = () => {
   // TODO: Implement the gsap.stagger() method
   useGSAP(() => {
-    gsap.to('/.stagger-box', {
+    gsap.to('.stagger-box', {
       y: 250,
       rotation: 360,
       borderRadius: '100%',
