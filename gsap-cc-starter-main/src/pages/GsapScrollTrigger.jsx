@@ -8,8 +8,8 @@ gsap.registerPlugin(ScrollTrigger)
 const GsapScrollTrigger = () => {
   const scrollRef = useRef();
   // TODO: Implement the gsap scroll trigger
-  useGSAP(() => {
     const boxes = gsap.utils.toArray
+    useGSAP(() => {
     (scrollRef.current.children);
 
     boxes.forEach((box) => {
